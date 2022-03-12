@@ -13,10 +13,10 @@ export default function MobileNav() {
         <a className={linkStyles}>About</a>
       </Link>
 
-      <a href="mailto:soreilly424@gmail.com" className={linkStyles}>
+      <a href="mailto:oswaldojsotog@gmail.com" className={linkStyles}>
         contact
       </a>
-      <a href="/images/seanresume.pdf" target="_blank" className={linkStyles}>
+      <a href="/images/OswaldoSoto-CV.jpg" target="_blank" className={linkStyles}>
         resume
       </a>
     </section>

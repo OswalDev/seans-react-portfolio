@@ -6,16 +6,16 @@ function About() {
     <section className="mt-8 px-20">
       <div className="flex items-center justify-between font-bold text-black text-6xl tracking-wider dark:text-white">
         About Oswaldo...
-        <Avatar image={'public\images\avataaars.png'} /> 
+        <Avatar image={'public\images\avataaars.png'} />
       </div>
       <div>
         <p className=" my-8 tracking-wider leading-relaxed text-lg font-light">
-          Hello! I'm a passionate Frontend Developer specializing in React and
-          JavaScript. I am a graduate of the University of Kansas and more
-          recently from the Le Wagon Coding Bootcamp where we built full stack
-          apps in Ruby on Rails and JavaScript. Since then, I have been
-          developing mainly with React and TailwindCSS. I am also experienced
-          with the backend, having built sites using PostgreSQL and Ruby.
+          Hello! I'm a passionate Frontend Developer specializing in React, Nodejs,
+          Express and Node. I am a Computer Science student of the University of Carabobo
+          in Venezuela and more recently Software Engineer student of the University
+          Polytechnic Institute "Santiago Mariño". apps in Ruby on Rails and JavaScript.
+          Since then,I have been developing mainly with React and TailwindCSS. I am
+          also experienced with the backend, having built sites using PostgreSQL and Ruby.
         </p>
 
         <p className=" my-8 tracking-wider leading-relaxed text-lg font-light">

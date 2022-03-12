@@ -6,7 +6,7 @@ import Image from 'next/image'
 function Hero() {
   return (
     <section name="top" className="text-center flex flex-col items-center my-5">
-      <div className="relative h-80 w-80">
+      {/* <div className="relative h-80 w-80">
         <Image
           className="rounded-full m-auto"
           src={'/images/mebw.jpg'}
@@ -15,7 +15,7 @@ function Hero() {
           objectFit="cover"
           layout="fill"
         />
-      </div>
+      </div> */}
 
       <motion.h2
         initial={{
@@ -69,7 +69,7 @@ function Hero() {
         </div>
         <div className="h-20 flex justify-center items-center">
           <a
-            onClick={() => scrollTo(0,800)}
+            onClick={() => scrollTo(0, 800)}
             className="p-4 mt-2 rounded-full text-center self-center cursor-pointer text-xl sm:px-4 font-black shadow-xl dark:bg-gray-50 dark:text-gray-900 transition-all duration-200 ease-linear hover:text-2xl  hover:text-primary animate-pulse"
           >
             <ArrowDownIcon className="h-6" />

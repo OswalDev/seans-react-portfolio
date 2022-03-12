@@ -18,7 +18,7 @@ export default function Navbar() {
         {/* Logo and Name */}
         <h1 className={styles.logo}>
           <img
-            src="/images/kanizsa-triangle.png"
+            src="/images/faviconBG.png"
             height="30px"
             width="30px"
             alt="Kanizsa Triangle Logo"
@@ -33,24 +33,20 @@ export default function Navbar() {
         <div className={`${styles.navLinksContainer} dark:bg-black`}>
           <Link href="/">
             <a
-              className={`${
-                styles.navLink
-              } dark:text-white dark:hover:text-gray-50 ${
-                router.pathname === '/' &&
+              className={`${styles.navLink
+                } dark:text-white dark:hover:text-gray-50 ${router.pathname === '/' &&
                 'bg-white rounded-3xl dark:bg-gray-900'
-              }`}
+                }`}
             >
               home
             </a>
           </Link>
           <Link href="/about">
             <a
-              className={`${
-                styles.navLink
-              } dark:text-white dark:hover:text-gray-50 ${
-                router.pathname === '/about' &&
+              className={`${styles.navLink
+                } dark:text-white dark:hover:text-gray-50 ${router.pathname === '/about' &&
                 'bg-white rounded-3xl dark:bg-gray-900'
-              }`}
+                }`}
             >
               about
             </a>
@@ -60,7 +56,7 @@ export default function Navbar() {
         {/* Resume & Contact & Dark Icon */}
         <div className={styles.right}>
           <a
-            href="/images/seanresume.pdf"
+            href="/images/OswaldoSoto-CV.jpg"
             target="_blank"
             className={`${styles.rightLinks} dark:text-white`}
           >
@@ -88,23 +84,20 @@ export default function Navbar() {
         <div className={styles.smallerSize}>
           <div onClick={() => setOpen(!open)} className={styles.hamburger}>
             <div
-              className={`${styles.hamburgerBar} dark:bg-gray-50 ${
-                open ? `transform rotate-45 mt-2` : `transform rotate-0 mt-1`
-              }`}
+              className={`${styles.hamburgerBar} dark:bg-gray-50 ${open ? `transform rotate-45 mt-2` : `transform rotate-0 mt-1`
+                }`}
             />
             <div
-              className={`${styles.hamburgerBar} dark:bg-gray-50 ${
-                open
-                  ? `transform translate-x-5 opacity-0`
-                  : `transform translate-x-0 opacity-100 mt-1 `
-              }`}
+              className={`${styles.hamburgerBar} dark:bg-gray-50 ${open
+                ? `transform translate-x-5 opacity-0`
+                : `transform translate-x-0 opacity-100 mt-1 `
+                }`}
             />
             <div
-              className={`${styles.hamburgerBar} dark:bg-gray-50 ${
-                open
-                  ? `transform -rotate-45 -mt-2 mb-3`
-                  : `transform rotate-0 mt-1 `
-              }`}
+              className={`${styles.hamburgerBar} dark:bg-gray-50 ${open
+                ? `transform -rotate-45 -mt-2 mb-3`
+                : `transform rotate-0 mt-1 `
+                }`}
             />
           </div>
 
@@ -124,9 +117,8 @@ export default function Navbar() {
 
       {/* Mobile Navbar Section */}
       <nav
-        className={`${styles.mobileSection} dark:bg-dark  ${
-          open ? 'opacity-100 h-full' : 'opacity-0 h-0'
-        }`}
+        className={`${styles.mobileSection} dark:bg-dark  ${open ? 'opacity-100 h-full' : 'opacity-0 h-0'
+          }`}
       >
         {open && <MobileNav />}
       </nav>
